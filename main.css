@@ -5,6 +5,21 @@
 #selfimage {
     width: 300px;
     height: 300px;
+    grid-column: 2 / span 1;
+}
+
+#firstName {
+    grid-column: 1 / span 1;
+}
+
+#lastName {
+    grid-column: 3 / span 1;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 300px auto;
+    justify-items: center;
 }
 
 .media-text-container {
