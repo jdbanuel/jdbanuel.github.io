@@ -16,6 +16,48 @@
     grid-column: 3 / span 1;
 }
 
+#navOuterContent {
+    padding: .5em 6em;
+    color: black;
+}
+
+#navInnerContent {
+    color: black;
+}
+
+nav.shrink {
+    background-color: rgb(64,64,64);
+    height: 60px;
+    padding-top: 0px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: fixed;
+    justify-items: center;
+    align-items: center;
+    height: 90px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    background: #fff;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.container {
+    padding-top: 163px;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 1140px;
+}
+
 .header-container {
     display: grid;
     grid-template-columns: auto 300px auto;
